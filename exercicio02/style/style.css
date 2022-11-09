@@ -1,0 +1,39 @@
+#app {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 20px 30px;
+    margin-top: 1em;
+    margin-bottom: 40px;
+    user-select: none;
+    overflow-x: auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+  }
+#app2 {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 20px 30px;
+    margin-top: 1em;
+    margin-bottom: 40px;
+    user-select: none;
+    overflow-x: auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+.age{
+    background-color: aqua;
+  }
+.documents {
+  background-color: green;
+}
+.name {
+  background-color: yellow;
+}
+.nationality {
+  background-color: aquamarine;
+}
