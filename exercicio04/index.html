@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Diretivas</title>
+</head>
+<body>
+    <div id="app">
+        <label>
+            <input type="checkbox" v-model="showText">
+            showText
+        </label>
+        <p 
+            v-bind:class="textClass"
+            v-if="showText">{{ text }}
+        </p>
+        <input type="number" v-model.number="number">
+
+
+        <button @mouseover="sayHi">
+            say hi
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
